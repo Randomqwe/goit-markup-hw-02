@@ -1,5 +1,5 @@
 body {
-  font-family: "Roboto", "Raleway", sans-serif;
+  font-family: "Roboto", sans-serif;
   color: #434455;
   background: #fff;
 }
@@ -84,13 +84,13 @@ a {
 .section-main {
   background: #2e2f42;
 }
-.h1-main {
+.h-main {
   font-family: "Roboto", sans-serif;
   font-weight: 700;
   font-size: 56px;
 
   /* line-height: 60px; */
-  line-height: 1.07143;
+  line-height: 1.07;
   letter-spacing: 0.02em;
   /* text-align: center; */
   color: #fff;
@@ -107,10 +107,12 @@ a {
   color: #fff;
   /* box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15); */
   background: #4d5ae5;
+  cursor: pointer;
 }
 
-.bnt-main {
-  cursor: pointer;
+.bnt-main:hover,
+.bnt-main:focus {
+  background: #404bbf;
 }
 
 .advantages h3 {
