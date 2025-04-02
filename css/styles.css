@@ -51,7 +51,7 @@ a {
   text-decoration: underline;
 }
 
-.contacts .mt {
+.contacts .mtt {
   font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-size: 16px;
@@ -62,8 +62,8 @@ a {
   color: #434455;
 }
 
-.contacts .mt:hover,
-.contacts .mt:focus {
+.contacts .mtt:hover,
+.contacts .mtt:focus {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
